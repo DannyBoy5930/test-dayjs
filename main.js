@@ -19,7 +19,6 @@ const formattedTime = currentDate.format('HH:mm:ss');
 
 const currentLocation = dayjs.tz.guess();
 
-// const test = dayjs();
 const formattedDate = currentDate.format('dddd, DD MMMM, YYYY');
 
 location.innerHTML = currentLocation;
@@ -45,21 +44,3 @@ date.innerHTML = formattedDate;
 // `
 
 // setupCounter(document.querySelector('#counter'))
-
-// const dayjs = require('dayjs')
-// //import dayjs from 'dayjs' // ES 2015
-// dayjs().format()
-
-
-
-// document.querySelector('#app').innerHTML = formattedDate;
-
-// document.querySelector('#app').innerHTML = `
-//   <div>
-//     <p></p>
-//     <h1>dayjs Time!</h1>
-//     <p class="read-the-docs">
-//       Click on the Vite logo to learn more
-//     </p>
-//   </div>
-// `
