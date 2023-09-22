@@ -1,6 +1,6 @@
 Setup (after cloning)
 
-```
+```bash
 npm i # Install all dependencies
 npm run dev
 ```
